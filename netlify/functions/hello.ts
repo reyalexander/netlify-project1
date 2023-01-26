@@ -7,4 +7,6 @@ const handler: Handler = async (event: HandlerEvent, context: HandlerContext) =>
   };
 };
 
+console.log("Hola")
+
 export { handler };
